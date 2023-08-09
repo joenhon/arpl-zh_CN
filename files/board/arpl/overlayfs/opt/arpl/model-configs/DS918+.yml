@@ -12,6 +12,9 @@ synoinfo: &synoinfo
   #support_ssd_cache: "yes"
   support_syno_hybrid_raid:
   supportraidgroup:
+  usbportcfg: "0x0"
+  internalportcfg: "0x3f"
+  maxdisks: "8"
 cmdline: &cmdline
   syno_hdd_powerup_seq: 0
   HddHotplug: 0
